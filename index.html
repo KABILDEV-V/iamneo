@@ -12,7 +12,7 @@
         <i class="fa-solid fa-circle-xmark" id="cancel"></i>
     </label>  
     <div class="slidebar">
-        <header>MENU BAR</header>
+        <header></header>
          <ul>
               <li><i class="fa-solid fa-lightbulb"></i><a href="#"> Notes</a></li>
               <li> <i class="fa-solid fa-bell"></i><a href="#">Remainder</a></li>
@@ -29,13 +29,19 @@
         </a>
     </div>
     <div class="entrytask">
-        <input type="text" placeholder="Enter a New Task" id="title">
-        <textarea type="text" id="addtext">
-        </textarea>
+        <input type="text"placeholder="Add Title" id="addtitle">
         <a href="#">
             <i class="fa-solid fa-image"></i>
         </a>
+     </div>
+     <div class="entrynotes">
+        <textarea type="text" id="addtext" col="10" rows="10" placeholder="Write your Notes"> 
+        </textarea>
+        <button id="addnote"><i class="fa-solid fa-circle-plus"></i></button>
     </div>
-    
+    <div id="notes">
+          
+    </div>
+    <script src="index.js"></script>
 </body>
 </html>

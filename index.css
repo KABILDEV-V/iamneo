@@ -1,10 +1,11 @@
+
 .slidebar{
         top:20%;
         position: fixed;
         left:-250px;
         width: 250px;
         height:50%;
-        background-color:yellow;
+        background-color:white;
         transition: 0.8s;
 }
 .slidebar header{
@@ -98,4 +99,20 @@ body{
     border:none;
     transition: 0.8s;
     background:transparent;
+}
+.entrynotes{
+    margin-left:37%;
+}
+#addnote{
+    background-color:blue;
+    border-radius: 50%; 
+    color:white ; 
+    padding: 12px 16px; 
+    font-size: 16px;
+    cursor: pointer; 
+}
+#notes{
+    margin-left:37%;
+    border-style: dashed;
+    width:20%;
 }
